@@ -1,6 +1,6 @@
 #include<iostream>
 
-void happyBirthday(std::string name, int age);
+void happyBirthday(std::string name1, int age1);
 int main(){
     std::string name = "nikhil";
     int age = 18;           //(#1)

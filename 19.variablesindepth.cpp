@@ -7,16 +7,22 @@
 //these variables are less secure
 int myNumG = 10;
 void myNum();
+void genNum();
 
 int main(){
     int myNumG = 1;
     std::cout << myNumG << '\n';
     myNum();
+    genNum();
     return 0;
 }
 void myNum(){
     int myNumG = 2;
-    std::cout << myNumG;
+    std::cout << myNumG << '\n';
+}
+void genNum(){
+    int myNum = 60;
+    std::cout << ::myNumG << '\n';
 }
 
 //here we defined the same myNum variable in three diff blocks with diff values (globbaly, in main, in myNum function)
