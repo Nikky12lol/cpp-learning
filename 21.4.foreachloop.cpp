@@ -6,13 +6,9 @@ int main (){
     // this is a lot of syntax and we dont need this for doing small things like printing all elements of an array 
     char grade [] = {'A', 'B', 'C','D'};
 
-    for(char grade : grade){                                 //this is the structure of the foreach loop: for(datastructure anyNameForTheVariable : itterableDataSet)
+    for(auto &grade : grade){                                 //this is the structure of the foreach loop: for(datastructure anyNameForTheVariable : itterableDataSet)
         std::cout << grade << '\n';
     }
-
-
-
-
 
     return 0;
 }

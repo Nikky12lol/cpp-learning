@@ -1,7 +1,7 @@
 #include <iostream>
 //using break and continue in loops 
-//break stops running the code where it is used 
-//continue will skip the current iteration and then will continue the rest normally
+//break stops running the code where it is used         //breaks out of the loop completely 
+//continue will skip the current iteration and then will continue the rest normally  //forces the next itteration
 
 int main(){
     for (int i = 1; i <=20 ; i++)

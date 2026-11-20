@@ -25,10 +25,10 @@ int main() {
 
   
   int x = 10 * 2 / 5 + 3 - 8;
-
-
   std::cout << x << '\n';
   std::cout << students << '\n';
+
+  
 
 
     return 0;

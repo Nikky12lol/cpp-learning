@@ -3,7 +3,7 @@
 int main(){
 
     //for loops are used to perform a code a certain ammount off times 
-    //it has three statments in it the counter, stoping condition and the increament opp 
+    //it has three statments in it the (index) counter, stoping condition and the increament opp 
 
    int numbers[] = {10, 20, 30, 40, 50};
 

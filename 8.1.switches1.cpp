@@ -2,7 +2,7 @@
 
 int main (){
     
-    //switches are an alternative to using many ifelse statmennts
+    //switches are an alternative to using many if else statmennts
 
     int month;
     using namespace std;

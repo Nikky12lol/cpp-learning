@@ -9,7 +9,7 @@ int main(){
     
     //it can aslo happen with many other data types
 
-    int y = 100;
+    int y = 101;
     std::cout << (char) y << '\n';
 
 

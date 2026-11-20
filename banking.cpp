@@ -62,11 +62,11 @@ double withdraw(double balance){
     std::cout << "enter ammount to be withdrawn:";
     std::cin >> withdrawal;
     if (withdrawal > balance){
-        std::cout << "insufficent funds";
+        std::cout << "insufficent funds\n";
         return 0;
     }
     else if (withdrawal < 0 ){
-        std::cout << "enter a positive ammount";
+        std::cout << "\nenter a positive ammount\n";
         return 0;
     }
     else{
